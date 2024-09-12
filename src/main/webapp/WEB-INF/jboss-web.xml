@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+    <!-- Definir el realm de seguridad personalizado -->
+    <security-domain>other</security-domain>
+    <context-root>/login-app</context-root>
+</jboss-web>
