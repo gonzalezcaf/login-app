@@ -15,7 +15,7 @@
             <url-pattern>/login.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
-            <role-name>AuthenticatedPerson</role-name>
+            <role-name>user</role-name>
         </auth-constraint>
     </security-constraint>
 
@@ -31,8 +31,8 @@
 
     <!-- Mapeo de roles -->
 	<security-role>
-		<description>Any authenticated user</description>
-		<role-name>AuthenticatedPerson</role-name>
+		<description>A generic role</description>
+		<role-name>user</role-name>
 	</security-role>    
 
 </web-app>
